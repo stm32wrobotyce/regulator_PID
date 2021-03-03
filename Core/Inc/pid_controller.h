@@ -10,7 +10,7 @@
 
 typedef struct
 {
-	int previous_variable; 		//Poprzednia zmierzona wartość dla członu różniczkującego
+	int previous_error; 		//Poprzedni błąd dla członu różniczkującego
 	int total_error;			//Suma uchybów dla członu całkującego
 	float Kp;					//Wzmocnienie członu proporcjonalnego
 	float Ki;					//Wzmocnienie członu całkującego*/
